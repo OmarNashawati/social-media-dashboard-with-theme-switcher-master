@@ -119,16 +119,21 @@ header p{
   color: var(--red);
 }
 
+.dark-mode-toggle-wrapper{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 
 /* Switch */
-.switchDarkMode {
+.switch-dark-mode {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
 }
 
-.switchDarkMode input[type='checkbox'] {
+.switch-dark-mode input[type='checkbox'] {
   opacity: 0;
   width: 0;
   height: 0;
