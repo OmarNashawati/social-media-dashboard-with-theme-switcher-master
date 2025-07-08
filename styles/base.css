@@ -1,12 +1,12 @@
 :root {
   --white: hsl(0, 0%, 100%);
 
-  --primary: hsl(163, 72%, 41%);
-  --secondary: hsl(356, 69%, 56%);
+  --green: hsl(163, 72%, 41%);
+  --red: hsl(356, 69%, 56%);
 
   --facebook: hsl(208, 92%, 53%);
   --twitter: hsl(203, 89%, 53%);
-  --instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  --instagram: linear-gradient(90deg, hsl(37, 97%, 70%) , hsl(329, 70%, 58%)) ;
   --youtube: hsl(348, 97%, 39%);
 
   --bg: hsl(0, 0%, 100%);
@@ -50,4 +50,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  object-fit: contain;
 }
