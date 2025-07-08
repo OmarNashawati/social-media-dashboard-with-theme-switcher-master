@@ -15,7 +15,7 @@
   --text: hsl(230, 17%, 14%);
   --text-muted: hsl(228, 12%, 44%);
   --theme-toggle: hsl(230, 22%, 74%);
-  
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +25,7 @@
     --card-bg: hsl(228, 28%, 20%);
     --text: var(--white);
     --text-muted: hsl(228, 34%, 66%);
-    --theme-toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --theme-toggle: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   }
 }
 
