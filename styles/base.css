@@ -29,6 +29,24 @@
   }
 }
 
+[data-theme="dark"] {
+  --bg: hsl(230, 17%, 14%);
+  --surface: hsl(232, 19%, 15%);
+  --card-bg: hsl(228, 28%, 20%);
+  --text: var(--white);
+  --text-muted: hsl(228, 34%, 66%);
+  --theme-toggle: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+[data-theme="light"] {
+  --bg: hsl(0, 0%, 100%);
+  --surface: hsl(225, 100%, 98%);
+  --card-bg: hsl(227, 47%, 96%);
+  --text: hsl(230, 17%, 14%);
+  --text-muted: hsl(228, 12%, 44%);
+  --theme-toggle: hsl(230, 22%, 74%);
+}
+
 *,
 *::before,
 *::after {
