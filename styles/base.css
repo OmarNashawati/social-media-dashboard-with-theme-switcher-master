@@ -1,0 +1,44 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+
+
+  --bg: hsl(0, 0%, 100%);
+  --surface: hsl(225, 100%, 98%);
+  --card-bg: hsl(227, 47%, 96%);
+  --text: hsl(230, 17%, 14%);
+  --text-muted: hsl(228, 12%, 44%);
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(230, 17%, 14%);
+    --surface: hsl(232, 19%, 15%);
+    --card-bg: hsl(228, 28%, 20%);
+    --text: var(--white);
+    --text-muted: hsl(228, 34%, 66%);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text);
+  background: var(--bg);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
